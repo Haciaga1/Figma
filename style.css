@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*--------------Desktop---------------*/
 body {
-    font-family: Roboto;
+    font-family: Roboto Slab;
     font-style: normal;
+}
+p{
+    font-family: Roboto;
 }
 h1 {
     width: 365px;
@@ -75,4 +79,52 @@ h1 {
 }
 .section2-div{
     margin-top: 146px;
+}
+
+/*--------------Tablet--------------*/
+@media (max-width: 1400px) {
+    h1{
+        width: 211.4px;
+        height: 53.86px;
+        font-size: 32px;
+        margin-top: 56px;
+        margin-left: 72px;
+        margin-bottom: 10.42px;
+    }
+    .cameraman2, .ellips2{
+        display: none;
+    }
+    .p{
+        width: 383.41px;
+        height: 216.61px;
+        font-size: 14px;
+        margin-left: 72px;
+    }
+    .cameraman{
+        width: 181.86px;
+        height: 182.44px;
+        margin-left: 110.04px;
+    }
+    .ellips{
+        width: 211.98px;
+        height: 34.17px;
+        margin-left: 94.98px;
+        margin-top: -16.8px;
+    }
+    .section2-bold-p{
+        width: 86.88px;
+        height: 22.59px;
+        font-size: 15px;
+        margin-bottom: 0.58px;
+    }
+    .section2-p{
+        font-size: 11px;
+    }
+    .section2{
+        width: 400px;
+        justify-content: flex-start;
+        margin-left: 72px;
+        position: absolute;
+    }
+    
 }
