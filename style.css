@@ -115,7 +115,7 @@ h1 {
         width: 86.88px;
         height: 22.59px;
         font-size: 15px;
-        margin-bottom: 0.58px;
+        margin-bottom: -10px;
     }
     .section2-p{
         font-size: 11px;
@@ -123,8 +123,55 @@ h1 {
     .section2{
         width: 400px;
         justify-content: flex-start;
+        margin-top: -110px;
         margin-left: 72px;
         position: absolute;
     }
-    
+}
+/*--------------Phone--------------*/
+@media(max-width: 830px){
+    h1{
+        width: 170.08px;
+        height: 43.34px;
+        font-size: 26px;
+        margin-top: 56px;
+        margin-left: 36px;
+    }
+    .p-and-img-flex {
+        display: block;
+    }
+    .p{
+        font-size: 12px;
+        width: 308.47px;
+        height: 174.27px;
+        margin-left: 36px;
+    }
+    .cameraman{
+        width: 170.55px;
+        height: 160.29px;
+        margin-top: 56px;
+        margin-left: 101px;
+    }
+    .section2-bold-p{
+        font-size: 12px;
+        width: 69.9px;
+        height: 18.17px;
+        margin-bottom: -10px;
+    }
+    .section2{
+        width: 350px;
+        margin: -110px 35px;
+        flex-wrap: wrap;
+    }
+    .section2-p{
+        font-size: 10px;
+        width: 86.89px;
+        height: 18.5px;
+    }
+    .section2-div{
+        margin-right: 49.27px;
+    }
+    #section2-div3{
+        margin-top: 34px;
+    }
 }
