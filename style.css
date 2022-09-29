@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: Roboto;
+    font-style: normal;
+}
+h1 {
+    width: 365px;
+    height: 93px;
+    margin-left: 124px;
+    margin-top: 91px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+}
+.p-and-img-flex {
+    display: flex;
+}
+.p {
+    width: 662px;
+    height: 374px;
+    margin-left: 124px;
+    margin-top: 18px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+.cameraman{
+    width: 314px;
+    height: 315px;
+    margin-left: 190px;
+    margin-top: 42px;
+}
+.ellips{
+    width: 366px;
+    height: 59px;
+    margin-left: 164px;
+    margin-top: -29px;
+    background: #EFEFEF;
+    border-radius: 50%;
+}
+.cameraman2{
+    width: 232px;
+    height: 203px;
+    margin-left: 124px;
+    margin-top: 96px;
+}
+.ellips2{
+    width: 189px;
+    height: 32px;
+    margin-top: -16px;
+    margin-left: 157px;
+    border-radius: 50%;
+    background: #EFEFEF;
+}
+.section2{
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+}
+.section2-bold-p{
+    width: 150px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+}
+.section2-p{
+    width: 150px;
+h   eight: 39px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+.section2-div{
+    margin-top: 146px;
+}
